@@ -1,0 +1,16 @@
+#container-title {
+  font-size: 1em;
+  color: white;
+}
+
+#container-title > span{
+  font-size: 4em;
+  color: rgb(255, 99, 20);
+}
+
+
+#post-container{
+    border: 2px solid rgb(194, 193, 193);
+
+}
+

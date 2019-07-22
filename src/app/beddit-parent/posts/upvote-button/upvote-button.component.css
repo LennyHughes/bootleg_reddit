@@ -1,0 +1,16 @@
+.up{
+    color: green;
+}
+
+.down {
+    color:red;
+}
+
+.material-icons{
+    color: rgb(146,189,223);
+}
+
+.material-icons:hover {
+    color: rgb(255, 99, 20);
+    cursor: pointer;
+}

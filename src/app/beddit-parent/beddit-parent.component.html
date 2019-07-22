@@ -1,0 +1,13 @@
+<div id="feed-container">
+    <div id="container-title"><span>Beddit</span> Nothing Like Reddit At All</div>
+    <div id="post-container">
+        <ng-container *ngFor="let post of retrievedData" >
+            <app-posts  *ngIf="post.data.stickied === false"  
+                [title]="post.data.title" 
+                [picStr]="post.data.thumbnail"
+                [urlStr]="post.data.url">
+            </app-posts>
+        </ng-container>
+    </div>
+</div>    
+  
